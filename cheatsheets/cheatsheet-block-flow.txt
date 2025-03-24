@@ -1,0 +1,19 @@
+Generate a concise cheatsheet on [TOPIC].
+Focus on core concepts, key commands, and essential examples.
+Organize information into succinct blocks with minimal blank lines.
+Use compact formatting to increase content density.
+Use clear headings or bullet points without adding extra spacing.
+Ensure readability while minimizing whitespace.
+Include relevant tips or best practices.
+Provide practical examples if applicable.
+Do not introduce unnecessary text or filler.
+
+Example usage:
+	•	Cheatsheet: Cloud Computing Basics
+	•	Key Sections: Concepts, Models, Services, Quick Tips
+	•	Formatting: Densely packed, minimal blank lines
+	•	Details:
+	•	Introduce each concept briefly
+	•	Include short bullet points
+	•	No extra line breaks
+
