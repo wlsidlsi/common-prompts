@@ -1,0 +1,29 @@
+Create an interactive 8.5x11-inch one-page cheatsheet on [topic] using HTML with a chaotic masonry-style layout. Follow these specifications:
+
+1. **Content**:
+   - Include 50 subtopics related to [topic]. If a list isn’t provided, generate 50 relevant subtopics.
+   - Each subtopic gets a tile with a micro-heading (emoji + title), concise base content (1–2 lines, e.g., code snippets, definitions), and a "More" button.
+   - Each "More" button triggers a centered modal popup with extensive content (50–100 words) covering the subtopic in depth (e.g., syntax, examples, use cases).
+
+2. **Layout**:
+   - Use a 3-column masonry layout (`column-count: 3`, `break-inside: avoid`) with no overlapping tiles.
+   - Tiles have variable heights (70px–100px) based on content, with some spanning all columns (class `.wide`).
+   - Introduce vertical staggering and asymmetry—no uniform rows or columns.
+   - Fit within 8.5x11 inches (`width: 8.5in; height: 11in`), with `overflow-y: auto` for scrolling if needed.
+
+3. **Design**:
+   - Use 4 distinct visual styles: `.shadowed` (white, shadow), `.dashed` (dashed border, light gray), `.highlight` (yellow bg), `.floating` (rotated 1deg, orange bg).
+   - Add playful emojis to headings for a developer zine vibe.
+   - Style "More" buttons (small, gray, clickable) and modals (centered, 400px wide, scrollable, with "Close" button).
+
+4. **Interactivity**:
+   - "More" buttons open modals via JavaScript (using `data-modal` attributes).
+   - Modals are fixed, centered (`top: 50%; left: 50%; transform: translate(-50%, -50%)`), with a dark overlay (`rgba(0,0,0,0.5)`).
+   - "Close" buttons dismiss modals.
+
+5. **Output**:
+   - Provide complete HTML with inline CSS and JavaScript.
+   - Ensure scannability (10-second glance) for tiles, with modals for depth.
+   - Target screen/dashboard use; modals hidden in print.
+
+Example subtopics for [ZSH]: "Variables," "Arrays," "Globbing," etc. For [topic], adapt subtopics accordingly. If unsure, infer a logical set.
