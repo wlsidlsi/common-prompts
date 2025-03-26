@@ -1,0 +1,33 @@
+Generate a visual cheatsheet for the topic “[YOUR TOPIC HERE]”.  Use CANVAS when available.
+
+	•	Break the cheatsheet into clearly defined sections or cards.
+
+	•	Each card should have:
+
+	•	A short, clearly visible title/header.
+
+	•	A succinct explanation or description (2–3 sentences max).
+
+	•	An example or visual representation demonstrating the concept.
+
+	•	Use visual separators such as borders or subtle background shading for each card to clearly distinguish between them.
+
+	•	Arrange cards in an organized grid layout to strategically minimize whitespace and maximize information density.
+
+	•	Include one card dedicated to quick tips or best practices related to “[YOUR TOPIC HERE]”, using bullet points.
+
+	•	Prioritize readability and immediate comprehension.
+
+	•	Do NOT use lengthy paragraphs or excessive whitespace.
+
+	•	Use concise, direct language.
+
+
+
+Formatting:
+
+	•	Card-based grid layout
+
+	•	Clear titles and uniform formatting
+
+	•	Visual examples/icons where appropriate
