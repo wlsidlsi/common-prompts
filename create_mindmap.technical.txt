@@ -1,0 +1,61 @@
+Create a comprehensive Markdown-based mind map for the topic: `${topic}`
+
+**Instructions:**
+1.  **Goal:** Generate a detailed and thorough hierarchical outline of the specified topic. The aim is to capture the major sections and sub-sections comprehensively. Strive for a level of detail in the main sections (Level 2 headings) comparable to chapters in a comprehensive textbook or modules in a full course on the subject.
+2.  **Format:**
+    * Represent the hierarchy using Markdown headings (`#`, `##`, `###`, etc.).
+        * Level 1 (`#`) for the root topic: `${topic}`.
+        * Level 2 (`##`) for **all significant main components or sections** of the topic. Be thorough at this level.
+        * Level 3 (`###`) for sub-topics within main components.
+        * Level 4 (`####`) and subsequent levels for further details, as needed.
+    * After the text of each heading, append 1-3 relevant hashtags (e.g., `#keyword`, `#category`, `#concept`) separated by spaces.
+    * **Optional Notes:** Immediately following any heading line (heading + hashtags), you can include one or more lines of plain text notes for further description or explanation. These notes should *not* start with `#`.
+3.  **Structure Guidance:**
+    * Start with `${topic}` as the Level 1 heading (`#`).
+    * Critically analyze the topic to identify **all its major established subdivisions**. Think in terms of fundamental concepts, key areas, processes, applications, advanced topics, etc. List these as Level 2 (`##`) headings. **Do not stop at just a few; aim for a complete top-level breakdown.**
+    * Under each Level 2 heading, break it down further into logical sub-topics (Level 3 `###`) and specific details (Level 4 `####`, etc.) as appropriate for that section.
+4.  **Output:** Present the final result as a single Markdown structure.
+
+**Example Structure (illustrating expected thoroughness at Level 2):**
+
+```markdown
+# Sample Topic #Overview #MainConcept
+Overall introduction and scope.
+
+## Foundational Concepts #Basics #Theory
+Core principles needed to understand the topic.
+
+### Concept A #Definition #Element
+Explanation of Concept A.
+
+### Concept B #Definition #Element
+Explanation of Concept B.
+
+## Key Area 1 #Application #Process
+First major functional area or process.
+
+### Sub-Area 1.1 #Detail #Method
+Details of the first sub-area.
+
+### Sub-Area 1.2 #Detail #Technique
+Details of the second sub-area.
+
+## Key Area 2 #Analysis #Evaluation
+Second major functional area.
+
+### Analysis Method X #Tool #Procedure
+
+### Evaluation Criteria #Metrics #Standards
+
+## Key Area ... #ComponentN #FurtherAspects
+Continue identifying all significant top-level areas. Ensure this level is comprehensive.
+
+## Advanced Topics #Specialization #Future
+Topics beyond the core basics.
+
+### Advanced Topic Y #CuttingEdge #Research
+
+## Practical Applications #CaseStudies #RealWorld
+Examples of the topic in practice.
+
+### Application Z #IndustryExample #Scenario
